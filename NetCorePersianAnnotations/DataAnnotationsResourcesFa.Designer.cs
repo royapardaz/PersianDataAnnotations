@@ -8,9 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PersianDataAnnotationsCore {
+namespace NetCorePersianAnnotations {
     using System;
-    using System.Reflection;
     
     
     /// <summary>
@@ -20,17 +19,17 @@ namespace PersianDataAnnotationsCore {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class DataAnnotationsResources {
+    internal class DataAnnotationsResourcesFa {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal DataAnnotationsResources() {
+        internal DataAnnotationsResourcesFa() {
         }
         
         /// <summary>
@@ -40,7 +39,7 @@ namespace PersianDataAnnotationsCore {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("PersianDataAnnotationsCore.DataAnnotationsResources", typeof(DataAnnotationsResources).GetTypeInfo().Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("NetCorePersianAnnotations.DataAnnotationsResourcesFa", typeof(DataAnnotationsResourcesFa).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -62,7 +61,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The argument &apos;{0}&apos; cannot be null, empty or contain only white space..
+        ///   Looks up a localized string similar to آرگمان &apos;{0}&apos; نمی تواند null یا empty یا فقط white space باشد.
         /// </summary>
         internal static string ArgumentIsNullOrWhitespace {
             get {
@@ -71,7 +70,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The associated metadata type for type &apos;{0}&apos; contains the following unknown properties or fields: {1}. Please make sure that the names of these members match the names of the properties on the main type..
+        ///   Looks up a localized string similar to متادیتای نوع &apos;{0}&apos; حاوی property یا feild های ناشناس {1} است. لطفا مطمئن شوید که name مربوط به member ها با name مربوط به property ها رو type اصلی یکی باشد..
         /// </summary>
         internal static string AssociatedMetadataTypeTypeDescriptor_MetadataTypeContainsUnknownProperties {
             get {
@@ -80,7 +79,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The type &apos;{0}&apos; must be public..
+        ///   Looks up a localized string similar to نوع &apos;{0}&apos;باید public باشد.
         /// </summary>
         internal static string AttributeStore_Type_Must_Be_Public {
             get {
@@ -89,7 +88,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The type &apos;{0}&apos; does not contain a public method named &apos;{1}&apos;..
+        ///   Looks up a localized string similar to نوع &apos;{0}&apos; شامل یک متد public با نام &apos;{1}&apos; نیست.
         /// </summary>
         internal static string AttributeStore_Unknown_Method {
             get {
@@ -98,7 +97,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The type &apos;{0}&apos; does not contain a public property named &apos;{1}&apos;..
+        ///   Looks up a localized string similar to نوع &apos;{0}&apos; شامل یک پراپرتی public با نام &apos;{1}&apos; نیست.
         /// </summary>
         internal static string AttributeStore_Unknown_Property {
             get {
@@ -107,7 +106,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Value cannot be null or empty..
+        ///   Looks up a localized string similar to مقدار نمی تواند خالی یا تهی باشد.
         /// </summary>
         internal static string Common_NullOrEmpty {
             get {
@@ -116,7 +115,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The property {0}.{1} could not be found..
+        ///   Looks up a localized string similar to پراپرتی {0}.{1} یافت نشد.
         /// </summary>
         internal static string Common_PropertyNotFound {
             get {
@@ -125,7 +124,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &apos;{0}&apos; and &apos;{1}&apos; do not match..
+        ///   Looks up a localized string similar to مقدار {0} و {1} با هم یکسان نیستند.
         /// </summary>
         internal static string CompareAttribute_MustMatch {
             get {
@@ -134,7 +133,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Could not find a property named {0}..
+        ///   Looks up a localized string similar to نمی‌توان پراپرتی {0} را یافت.
         /// </summary>
         internal static string CompareAttribute_UnknownProperty {
             get {
@@ -143,7 +142,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The {0} field is not a valid credit card number..
+        ///   Looks up a localized string similar to {0} حاوی شماره کارت اعتباری معتبر نیست.
         /// </summary>
         internal static string CreditCardAttribute_Invalid {
             get {
@@ -152,7 +151,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The CustomValidationAttribute method &apos;{0}&apos; in type &apos;{1}&apos; must return System.ComponentModel.DataAnnotations.ValidationResult.  Use System.ComponentModel.DataAnnotations.ValidationResult.Success to represent success..
+        ///   Looks up a localized string similar to مقدار برگشتی CustomValidationAttribute متد &apos;{0}&apos; از نوع &apos;{1}&apos; باید System.ComponentModel.DataAnnotations.ValidationResult باشد. برای بازگرداندن موفقیت System.ComponentModel.DataAnnotations.ValidationResult.Success را بازگردانید..
         /// </summary>
         internal static string CustomValidationAttribute_Method_Must_Return_ValidationResult {
             get {
@@ -161,7 +160,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The CustomValidationAttribute method &apos;{0}&apos; does not exist in type &apos;{1}&apos; or is not public and static..
+        ///   Looks up a localized string similar to متد CustomValidationAttribute &apos;{0}&apos; برای نوع &apos;{1}&apos; یا وجود ندارد یا public و static نیست.
         /// </summary>
         internal static string CustomValidationAttribute_Method_Not_Found {
             get {
@@ -170,7 +169,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The CustomValidationAttribute.Method was not specified..
+        ///   Looks up a localized string similar to مقدار CustomValidationAttribute.Method مشخص نشده است.
         /// </summary>
         internal static string CustomValidationAttribute_Method_Required {
             get {
@@ -188,7 +187,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Could not convert the value of type &apos;{0}&apos; to &apos;{1}&apos; as expected by method {2}.{3}..
+        ///   Looks up a localized string similar to نوع &apos;{0}&apos; به &apos;{1}&apos; به عنوان خروجی {2}.{3} تبدیل نمی شود..
         /// </summary>
         internal static string CustomValidationAttribute_Type_Conversion_Failed {
             get {
@@ -197,7 +196,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The custom validation type &apos;{0}&apos; must be public..
+        ///   Looks up a localized string similar to custom validation نوع &apos;{0}&apos; باید public باشد..
         /// </summary>
         internal static string CustomValidationAttribute_Type_Must_Be_Public {
             get {
@@ -206,7 +205,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0} is not valid..
+        ///   Looks up a localized string similar to مقدار {0} معتبر نیست.
         /// </summary>
         internal static string CustomValidationAttribute_ValidationError {
             get {
@@ -215,7 +214,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The CustomValidationAttribute.ValidatorType was not specified..
+        ///   Looks up a localized string similar to CustomValidationAttribute.ValidatorType مشخص نشده است.
         /// </summary>
         internal static string CustomValidationAttribute_ValidatorType_Required {
             get {
@@ -224,7 +223,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The custom DataType string cannot be null or empty..
+        ///   Looks up a localized string similar to این نوع داده نمی تواند خالی باشد.
         /// </summary>
         internal static string DataTypeAttribute_EmptyDataTypeString {
             get {
@@ -233,7 +232,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The {0} property has not been set.  Use the {1} method to get the value..
+        ///   Looks up a localized string similar to پراپرتی {0} مقداردهی نشده، می توانید با متد {1} مقداردهی کنید.
         /// </summary>
         internal static string DisplayAttribute_PropertyNotSet {
             get {
@@ -242,7 +241,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The {0} field is not a valid e-mail address..
+        ///   Looks up a localized string similar to {0} فرمت صحیح یک ایمیل را ندارد.
         /// </summary>
         internal static string EmailAddressAttribute_Invalid {
             get {
@@ -251,7 +250,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The type provided for EnumDataTypeAttribute cannot be null..
+        ///   Looks up a localized string similar to نوع انتخاب شده برای EnumDataTypeAttribute نمی‌تواند null باشد.
         /// </summary>
         internal static string EnumDataTypeAttribute_TypeCannotBeNull {
             get {
@@ -260,7 +259,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The type &apos;{0}&apos; needs to represent an enumeration type..
+        ///   Looks up a localized string similar to مقدار {0} باید یکی از مقادیر تعیین شده باشد.
         /// </summary>
         internal static string EnumDataTypeAttribute_TypeNeedsToBeAnEnum {
             get {
@@ -269,7 +268,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The {0} field only accepts files with the following extensions: {1}.
+        ///   Looks up a localized string similar to {0} فقط می تواند فایل هایی با پسوند های {1} را بپذیرد.
         /// </summary>
         internal static string FileExtensionsAttribute_Invalid {
             get {
@@ -278,7 +277,8 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cannot retrieve property &apos;{0}&apos; because localization failed.  Type &apos;{1}&apos; is not public or does not contain a public static string property with the name &apos;{2}&apos;..
+        ///   Looks up a localized string similar to خطای بومی سازی برای پراپرتی &apos;{0}&apos;.
+        ///نوع &apos;{1}&apos; یا public نیست یا حاوی یک public static string با نام &apos;{2}&apos; نیست.
         /// </summary>
         internal static string LocalizableString_LocalizationFailed {
             get {
@@ -287,7 +287,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to MaxLengthAttribute must have a Length value that is greater than zero. Use MaxLength() without parameters to indicate that the string or array can have the maximum allowable length..
+        ///   Looks up a localized string similar to مقدار MaxLengthAttribute باید بزرگتر از صفر باشد. استفاده از MaxLength() بدون مقدار ورودی یعنی نوشته ها می توانند بزگترین طول مجاز خود را داشته باشند..
         /// </summary>
         internal static string MaxLengthAttribute_InvalidMaxLength {
             get {
@@ -296,7 +296,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The field {0} must be a string or array type with a maximum length of &apos;{1}&apos;..
+        ///   Looks up a localized string similar to حداکثر طول {0} می تواند {1} باشد.
         /// </summary>
         internal static string MaxLengthAttribute_ValidationError {
             get {
@@ -305,7 +305,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to MetadataClassType cannot be null..
+        ///   Looks up a localized string similar to نوع متادیتا نمی تواند خالی باشد.
         /// </summary>
         internal static string MetadataTypeAttribute_TypeCannotBeNull {
             get {
@@ -314,7 +314,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to MinLengthAttribute must have a Length value that is zero or greater..
+        ///   Looks up a localized string similar to مقدار MinLengthAttribute باید صفر یا بزرگتر از آن باشد.
         /// </summary>
         internal static string MinLengthAttribute_InvalidMinLength {
             get {
@@ -323,7 +323,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The field {0} must be a string or array type with a minimum length of &apos;{1}&apos;..
+        ///   Looks up a localized string similar to حداقل طول {0} می تواند {1} باشد.
         /// </summary>
         internal static string MinLengthAttribute_ValidationError {
             get {
@@ -332,7 +332,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The {0} field is not a valid phone number..
+        ///   Looks up a localized string similar to مقدار {0} یک شماره تلفن معتبر نیست.
         /// </summary>
         internal static string PhoneAttribute_Invalid {
             get {
@@ -341,7 +341,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The type {0} must implement {1}..
+        ///   Looks up a localized string similar to نوع {0} باید implement {1}.
         /// </summary>
         internal static string RangeAttribute_ArbitraryTypeNotIComparable {
             get {
@@ -350,7 +350,8 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The maximum value &apos;{0}&apos; must be greater than or equal to the minimum value &apos;{1}&apos;..
+        ///   Looks up a localized string similar to 
+        ///بیشترین مقدار &apos;{0}&apos; باید بزرگتر یا مساوی کمترین مقدار &apos;{1}&apos; باشد.
         /// </summary>
         internal static string RangeAttribute_MinGreaterThanMax {
             get {
@@ -359,7 +360,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The minimum and maximum values must be set..
+        ///   Looks up a localized string similar to مقدار حداقل و حداکثر باید مشخص شوند.
         /// </summary>
         internal static string RangeAttribute_Must_Set_Min_And_Max {
             get {
@@ -368,7 +369,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The OperandType must be set when strings are used for minimum and maximum values..
+        ///   Looks up a localized string similar to هنگامی که string ها بیشترین و کمترین مقدار را به کار می برند باید OperandType تنظیم شود.
         /// </summary>
         internal static string RangeAttribute_Must_Set_Operand_Type {
             get {
@@ -377,7 +378,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The field {0} must be between {1} and {2}..
+        ///   Looks up a localized string similar to مقدار {0} باید بین {1} و {2} باشد.
         /// </summary>
         internal static string RangeAttribute_ValidationError {
             get {
@@ -386,7 +387,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The field {0} must match the regular expression &apos;{1}&apos;..
+        ///   Looks up a localized string similar to فیلد {0} باید با regular expression &apos;{1}&apos; منطبق باشد.
         /// </summary>
         internal static string RegexAttribute_ValidationError {
             get {
@@ -395,7 +396,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The pattern must be set to a valid regular expression..
+        ///   Looks up a localized string similar to الگو باید حاوی یک الگوریتم صحیح باشد.
         /// </summary>
         internal static string RegularExpressionAttribute_Empty_Pattern {
             get {
@@ -404,7 +405,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The {0} field is required..
+        ///   Looks up a localized string similar to {0} ضروری است.
         /// </summary>
         internal static string RequiredAttribute_ValidationError {
             get {
@@ -413,7 +414,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The maximum length must be a nonnegative integer..
+        ///   Looks up a localized string similar to حداکثر طول باید غیر منفی باشد.
         /// </summary>
         internal static string StringLengthAttribute_InvalidMaxLength {
             get {
@@ -422,7 +423,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The field {0} must be a string with a maximum length of {1}..
+        ///   Looks up a localized string similar to طول {0} باید حداکثر {1} کاراکتر باشد.
         /// </summary>
         internal static string StringLengthAttribute_ValidationError {
             get {
@@ -431,7 +432,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The field {0} must be a string with a minimum length of {2} and a maximum length of {1}..
+        ///   Looks up a localized string similar to طول {0} باید حداقل {2} و حداکثر {1} کاراکتر باشد.
         /// </summary>
         internal static string StringLengthAttribute_ValidationErrorIncludingMinimum {
             get {
@@ -476,7 +477,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The {0} field is not a valid fully-qualified http, https, or ftp URL..
+        ///   Looks up a localized string similar to مقدار {0} حاوی یک آدرس صحیح http، https یا ftp نیست.
         /// </summary>
         internal static string UrlAttribute_Invalid {
             get {
@@ -512,7 +513,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The property &apos;{0}&apos; on resource type &apos;{1}&apos; is not a string type..
+        ///   Looks up a localized string similar to پراپرتی &apos;{0}&apos; ازresource type &apos;{1}&apos; از نوع string نیست.
         /// </summary>
         internal static string ValidationAttribute_ResourcePropertyNotStringType {
             get {
@@ -530,7 +531,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The field {0} is invalid..
+        ///   Looks up a localized string similar to مقدار {0} نامعتبر است.
         /// </summary>
         internal static string ValidationAttribute_ValidationError {
             get {
@@ -566,7 +567,7 @@ namespace PersianDataAnnotationsCore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The value for property &apos;{0}&apos; must be of type &apos;{1}&apos;..
+        ///   Looks up a localized string similar to مقدار پراپرتی &apos;{0}&apos; باید از نوع &apos;{1}&apos; باشد.
         /// </summary>
         internal static string Validator_Property_Value_Wrong_Type {
             get {
